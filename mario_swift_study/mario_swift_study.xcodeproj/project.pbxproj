@@ -13,6 +13,7 @@
 		FBDAE30026C2F3D90036E3D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDAE2FE26C2F3D90036E3D4 /* Main.storyboard */; };
 		FBDAE30226C2F3DA0036E3D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBDAE30126C2F3DA0036E3D4 /* Assets.xcassets */; };
 		FBDAE30A26C2F6FD0036E3D4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDAE30926C2F6FD0036E3D4 /* Launch Screen.storyboard */; };
+		FBDAE30C26C312CD0036E3D4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDAE30B26C312CD0036E3D4 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FBDAE30126C2F3DA0036E3D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBDAE30326C2F3DA0036E3D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBDAE30926C2F6FD0036E3D4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		FBDAE30B26C312CD0036E3D4 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FBDAE2FA26C2F3D90036E3D4 /* GameScene.swift */,
 				FBDAE2FC26C2F3D90036E3D4 /* GameViewController.swift */,
 				FBDAE30926C2F6FD0036E3D4 /* Launch Screen.storyboard */,
+				FBDAE30B26C312CD0036E3D4 /* Player.swift */,
 				FBDAE2FE26C2F3D90036E3D4 /* Main.storyboard */,
 				FBDAE30126C2F3DA0036E3D4 /* Assets.xcassets */,
 				FBDAE30326C2F3DA0036E3D4 /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBDAE30C26C312CD0036E3D4 /* Player.swift in Sources */,
 				FBDAE2FB26C2F3D90036E3D4 /* GameScene.swift in Sources */,
 				FBDAE2FD26C2F3D90036E3D4 /* GameViewController.swift in Sources */,
 				FBDAE2F526C2F3D90036E3D4 /* AppDelegate.swift in Sources */,

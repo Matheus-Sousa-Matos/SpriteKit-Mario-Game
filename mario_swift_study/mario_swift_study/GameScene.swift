@@ -10,15 +10,16 @@ import GameplayKit
 
 class GameScene: SKScene {
     
-    let player: SKSpriteNode = SKSpriteNode(color: .white, size: CGSize(width: 20, height: 20))
-    
     override func didMove(to view: SKView) {
-        player.position = CGPoint(x: size.width*0.5, y: size.height*0.5)
-        player.zPosition = 1
-        self.addChild(player)
+        let player = Player(positon: CGPoint(x: size.width*0.5, y: size.height*0.5), size: CGSize(width: 50, height: 50))
+        self.addChild(player.node)
+    }
+    
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
     }
     
     override func update(_ currentTime: TimeInterval) {
-        // Called before each frame is rendered
+        
     }
 }
